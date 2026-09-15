@@ -31,3 +31,31 @@ dist-ssr
 
 # typescript
 *.tsbuildinfo
+
+# --- Material interno de la materia (NO se publica) ---
+# Enunciados/tareas entregadas por el docente
+TAREAS/
+tareas/
+TASKS.MD
+# Plan de trabajo interno y guía para asistentes de código
+PLAN-IMPLEMENTACION.md
+AGENTS.md
+
+# --- Pruebas, auditorías y artefactos temporales ---
+coverage/
+*.lcov
+test-results/
+playwright-report/
+*.audit.mjs
+*-audit.mjs
+smoke*.mjs
+*-out.txt
+preview.log
+build.log
+
+# --- Salidas de compilación y cachés ---
+out/
+build/
+.vite/
+.cache/
+
